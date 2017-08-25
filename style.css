@@ -1,0 +1,262 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family:sans-serif;
+}
+
+.ubercontainer{
+	width: 750px;
+	margin-left: 30px;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.topbar ul{
+	background-image:
+    	radial-gradient(
+      		white,
+      		#CDCDCD
+    	);
+    margin-bottom: 10px;
+    height: 42px;
+    border-radius: 6px;
+    margin-top: 20px;
+    width: 750px;
+}
+.topbar ul li{
+	display: inline-block;
+	vertical-align: top;
+}
+
+.topbar ul li a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 15px
+}
+.topbar ul li,.searchbar{
+	display: inline-block;
+}
+.topbaritem{
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px solid #E9EAE9;
+	height: 42px;
+	margin-right: 10px;
+}
+
+#accordanceicon{
+	height: 42px;
+	width: 51px;
+	border-radius: 8px 0px 0px 8px;
+}
+
+.searchbar{
+	vertical-align: top;
+	padding-top: 10px;
+	padding-left: 30px;
+}
+
+.searchbar input,label{
+	vertical-align: top;
+	border-radius: 10px 0px 0px 10px;
+	border:transparent;
+	padding-bottom: 5px;
+	width: 130px;
+}
+
+#search{
+	background-color: transparent;
+	border:transparent;
+	margin-right: 20px;
+}
+
+.titlesplashpage img{
+	width: 750px;
+}
+
+.titlesplashpage img, nav{
+	vertical-align: top;
+}
+
+.bottombar ul{
+	background-image:
+    	linear-gradient(
+      		#4F5051,
+      		#343434
+    	);
+    width: 750px;
+    height:24px;
+    border-radius: 0px 0px 5px 5px;
+    vertical-align: top;
+}
+
+.bottombar ul li{
+	display: inline-block;
+	color:#95AEBE;
+	font-size: 12px;
+	padding-left: 10px;
+	margin-left: 5px;
+	border-right: 1px solid #565654;
+}
+
+.bottombar ul li:first-child{
+	color: white;
+}
+
+.middlesection{
+	width: 750px;
+}
+
+.discoversection{
+	border:1px solid #F4F6F5;
+	margin-top: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	width: 730px;
+	border-radius: 5px 5px 0px 0px;
+}
+
+.discoversection p{
+	color:#A9A9A9;
+	font-weight: lighter;
+	font-size: 18px;
+	border-right: 1px solid #E9EAE9;
+	height:30px;
+	padding-right: 50px;
+
+}
+
+.discoversection button{
+	margin-left: 80px;
+	background-image:
+    	linear-gradient(
+      		#5794BA,
+      		#416F8E
+    	);
+    border-style: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 160px 10px 20px;
+    border-radius: 5px;
+}
+
+.discoversection p,button{
+	display: inline-block;
+}
+
+#actionsectionbigbox{
+	border:1px solid #F4F6F5;
+	width: 750px;
+	height: 270px;
+}
+
+.actionsection header img,h4{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.actionsection h4{
+	font-size: 12px;
+	margin-top: 25px;
+}
+
+.contenticon{
+	width: 20px;
+	height: 20px;
+}
+
+.actionsection{
+	display: inline-block;
+	width: 170px;
+	margin-top: 20px;
+	height: 240px;
+	margin-left: 10px;
+	vertical-align: top;
+}
+
+.actionsection:not(:nth-child(4)){
+	border-right: 1px solid #E9EAE9;
+	height:220px;
+	margin-top: 20px
+}
+
+.actionsection p{
+	font-size: 9px;
+	margin-left: 12px;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+.actionpic{
+	height: 90px;
+	width: 150px;
+	margin-left: 10px;
+	margin-top: 10px;
+	vertical-align: top;
+}
+
+.actionbutton{
+	margin-left: 10px;
+	border-style: none;
+    color: white;
+    background-image:
+    	linear-gradient(
+      		#64B8F3,
+      		#5CA1D6
+    	);
+    padding: 2px 40px 2px 40px;
+    border-radius: 2px;
+    vertical-align: bottom;
+    margin-top: 10px;
+}
+
+.emptybox{
+	border:1px solid #F4F6F5;
+	height: 40px;
+	width: 750px;
+	border-radius: 0px 0px 5px 5px;
+}
+
+.bottomnavarea{
+	border-bottom: 1px solid #E9EAE9;
+	padding-bottom: 30px;
+}
+
+.bottomnavarea nav{
+	display: inline-block;
+	width: 100px;
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+h5{
+	border-bottom: 1px solid #E9EAE9;
+	margin-top: 30px;
+	font-size: 10px;
+	padding-right: 60px;
+	padding-bottom: 10px;
+}
+
+.bottomnavarea nav ul li{
+	font-size: 9px;
+	margin-top: 10px;
+}
+
+footer p,a{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-size: 8px;
+}
+
+a{
+	color: #2376C8;
+}
